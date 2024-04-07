@@ -8,9 +8,9 @@ import service.exception.DatabaseConnectionError;
 
 public class Database {
 	
-	private static String jdbcUrl = "jdbc:postgresql://localhost:5432/base_ceps";
+	private static String jdbcUrl = "jdbc:postgresql://localhost:5432/SEU_BANCO_DE_DADOS";
 	private static String username = "postgres";
-	private static String password = "12345678";
+	private static String password = "SUA_SENHA";
     
     public static Connection getConnection() {
     	try {
